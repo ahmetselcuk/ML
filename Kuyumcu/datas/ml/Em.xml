@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<opencv_ml_em>
+  <format>3</format>
+  <training_params>
+    <nclusters>3</nclusters>
+    <cov_mat_type>diagonal</cov_mat_type>
+    <epsilon>9.9999999999999995e-007</epsilon>
+    <iterations>100</iterations></training_params>
+  <weights type_id="opencv-matrix">
+    <rows>1</rows>
+    <cols>3</cols>
+    <dt>d</dt>
+    <data>
+      5.1994632655540196e-001 4.0552125584771992e-001
+      7.4532417596871861e-002</data></weights>
+  <means type_id="opencv-matrix">
+    <rows>3</rows>
+    <cols>3</cols>
+    <dt>d</dt>
+    <data>
+      2.4996847518218593e+002 1.2739157184559454e+002
+      1.2851930945092872e+002 2.0526911171760364e+002
+      1.4078084685885463e+002 1.2674859296328671e+002
+      1.3018946026731282e+002 1.6231356513713595e+002
+      8.7357538695774252e+001</data></means>
+  <covs>
+    <_ type_id="opencv-matrix">
+      <rows>3</rows>
+      <cols>3</cols>
+      <dt>d</dt>
+      <data>
+        5.4915263098617952e+000 0. 0. 0. 4.3823913258217512e-001 0. 0.
+        0. 1.5624675070920280e+000</data></_>
+    <_ type_id="opencv-matrix">
+      <rows>3</rows>
+      <cols>3</cols>
+      <dt>d</dt>
+      <data>
+        4.2011719833301436e+002 0. 0. 0. 4.4442903506242843e+001 0. 0.
+        0. 3.2422001116670700e+001</data></_>
+    <_ type_id="opencv-matrix">
+      <rows>3</rows>
+      <cols>3</cols>
+      <dt>d</dt>
+      <data>
+        5.2310923094833493e+002 0. 0. 0. 7.4147901070735983e+001 0. 0.
+        0. 4.8911864048522055e+001</data></_></covs></opencv_ml_em>
+</opencv_storage>
