@@ -53,15 +53,15 @@ void UnsupervisedEMDemo();
 int main()
 	{
 
-	const char *fNameTrain = "E:/CppCodes/Kuyumcu/datas/ml/irisTrain.txt";
-	const char *fNameTest = "E:/CppCodes/Kuyumcu/datas/ml/irisTest.txt";
-	const char *fNameSvmModel = "E:/CppCodes/Kuyumcu/datas/ml/irisSvm.xml";
-	const char *fNameBayesModel = "E:/CppCodes/Kuyumcu/datas/ml/irisBayes.xml";
-	const char *fNameKNearestModel = "E:/CppCodes/Kuyumcu/datas/ml/irisKNearest.xml";
-	const char *fNameDTreeModel = "E:/CppCodes/Kuyumcu/datas/ml/irisDTree.xml";
-	const char *fNameRTreeModel = "E:/CppCodes/Kuyumcu/datas/ml/irisRTree.xml";
-	const char *fNameANNModel = "E:/CppCodes/Kuyumcu/datas/ml/irisANN.xml";
-	const char *fNameLRegModel = "E:/CppCodes/Kuyumcu/datas/ml/irisLReg.xml";
+	const char *fNameTrain = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisTrain.txt";
+	const char *fNameTest = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisTest.txt";
+	const char *fNameSvmModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisSvm.xml";
+	const char *fNameBayesModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisBayes.xml";
+	const char *fNameKNearestModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisKNearest.xml";
+	const char *fNameDTreeModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisDTree.xml";
+	const char *fNameRTreeModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisRTree.xml";
+	const char *fNameANNModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisANN.xml";
+	const char *fNameLRegModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/irisLReg.xml";
 
 
 
@@ -517,7 +517,7 @@ void testANN(const char *fName , cv::Mat& Data , cv::Mat& Labels)
 
 void UnsupervisedEMDemo()
 	{
-	const char *fNameEMModel = "E:/CppCodes/Kuyumcu/datas/ml/Em.xml";
+	const char *fNameEMModel = "E:/CppCodes/ML/Kuyumcu/datas/ml/Em.xml";
 
 	int nRegion = 3;
 	bool withLocation = false;
@@ -530,7 +530,7 @@ void UnsupervisedEMDemo()
 
 	cout << "Unsupervised Expectation Maximization Demo" << endl;
 
-	cv::Mat inImg = cv::imread("E:/CppCodes/Kuyumcu/datas/BloodCells.jpg"); // //uydu.jpg
+	cv::Mat inImg = cv::imread("E:/CppCodes/ML/Kuyumcu/datas/BloodCells.jpg"); // //uydu.jpg
 	cv::imshow("Orj" , inImg);
 	cv::waitKey(1);
 
@@ -616,7 +616,7 @@ void UnsupervisedEMDemo()
 			}
 
 		}
-	cv::imwrite("E:/CppCodes/Kuyumcu/datas/out12.jpg" , outImg);
+	cv::imwrite("E:/CppCodes/ML/Kuyumcu/datas/out12.jpg" , outImg);
 	cv::pyrUp(outImg , outImg);
 
 

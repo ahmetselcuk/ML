@@ -1,5 +1,5 @@
-﻿Build started 09.11.2016 15:51:55.
-     1>Project "E:\CppCodes\Kuyumcu\Unsupervised\Unsupervised.vcxproj" on node 2 (Build target(s)).
+﻿Build started 16.11.2016 08:42:28.
+     1>Project "E:\CppCodes\ML\Kuyumcu\Unsupervised\Unsupervised.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          E:\VisualStudio2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt UnsupervisedSource.cpp
          UnsupervisedSource.cpp
@@ -11,10 +11,10 @@
      1>UnsupervisedSource.cpp(556): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
      1>UnsupervisedSource.cpp(588): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
        Link:
-         E:\VisualStudio2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CppCodes\Kuyumcu\x64\Debug\Unsupervised.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CppCodes\Kuyumcu\x64\Debug\Unsupervised.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CppCodes\Kuyumcu\x64\Debug\Unsupervised.lib" /MACHINE:X64 x64\Debug\UnsupervisedSource.obj
-         Unsupervised.vcxproj -> E:\CppCodes\Kuyumcu\x64\Debug\Unsupervised.exe
-     1>Done Building Project "E:\CppCodes\Kuyumcu\Unsupervised\Unsupervised.vcxproj" (Build target(s)).
+         E:\VisualStudio2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CppCodes\ML\Kuyumcu\x64\Debug\Unsupervised.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CppCodes\ML\Kuyumcu\x64\Debug\Unsupervised.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CppCodes\ML\Kuyumcu\x64\Debug\Unsupervised.lib" /MACHINE:X64 x64\Debug\UnsupervisedSource.obj
+         Unsupervised.vcxproj -> E:\CppCodes\ML\Kuyumcu\x64\Debug\Unsupervised.exe
+     1>Done Building Project "E:\CppCodes\ML\Kuyumcu\Unsupervised\Unsupervised.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.84
+Time Elapsed 00:00:00.82
